@@ -326,6 +326,82 @@ nav ul li a.active {
 
 
 
+
+
+
+
+
+/* About start */
+
+
+/* .about-banner{
+  background: #04152C;
+  width: 100%;
+  height: 100vh;
+} */
+
+.about-container-fluid{
+  background: #04152C;
+}
+/* About Page Specific */
+.about-banner {
+  background: #04152C;
+}
+
+.about-banner h1 {
+  font-size: 3rem;
+}
+
+.about-banner p {
+  font-size: 1.2rem;
+}
+
+.about-content h2 {
+  color: #F6C947;
+}
+
+.vision-mission h3 {
+  color: #F6C947;
+}
+
+.our-process h2 {
+  color: #F6C947;
+}
+
+.about-cta {
+  background: #04152C;
+}
+
+.our-process img {
+  transition: transform 0.3s ease;
+}
+
+.our-process img:hover {
+  transform: scale(1.1);
+}
+.why-choose-us h2 {
+  color: #F6C947;
+}
+
+.about-img-card{
+  transition: .5s;
+}
+
+.about-img-card:hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
   ul.navbar-links {
     display: none;
