@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Solutions</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- Header & Banner Start -->
+<header class="container-fluid banner">
+
+  <!-- Go To Top Button -->
+<!-- <button onclick="scrollToTop()" id="goTopBtn" title="Go to top">↑</button> -->
+
+  <div class="container">
+    <div class="row align-items-center py-3">
+      <div class="col-12 d-flex justify-content-between align-items-center">
+        <a class="navbar-brand text-light font-weight-bold">.Dev</a>
+
+        <nav class="d-none d-md-block">
+          <ul class="navbar-links d-flex">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <span id="menu-toggle" class="menu-toggle d-md-none" onclick="toggleSidebar()">☰</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidebar for Mobile -->
+  <div id="mySidebar" class="sidebar">
+    <!-- <a href="javascript:void(0)" class="close-btn" onclick="toggleSidebar()">✕</a> -->
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-left text-light banner-type-effect">
+        <h1 class="banner-type-effect-fontsize">
+          We build <span id="type-text"></span><span class="cursor">|</span><br>
+          From code to cloud — we handle it all.
+        </h1>
+      </div>
+    </div>
+    <div class="row banner-imp-points">
+      <div class="col-lg-12">
+        <h3 class="text-white banner-imp-points-text">
+          ⚙️  End-to-End DevOps Implementation<br>
+          🎨  Responsive & Modern UI Design<br>
+          🚀  Cloud Infrastructure & Deployment (AWS)<br>
+          🔒  Secure, Scalable, and Fast Web Solutions<br>
+        </h3>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Header & Banner End -->
+
+<!-- What We Offer Section -->
+<section class="container-fluid section-2">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-12  section-2-column">
+        <h1 class="golden-text pb-5">What We Offer</h1>
+        <div class="row justify-content-center">
+    
+          <div class="col-md-4 mb-4">
+            <div class="service-block">
+              <div class="service-image-box">
+                <img src="../images/front.jpg" alt="Frontend">
+              </div>
+              <div class="service-card">
+                <h4>🎨 Frontend & UI Design</h4>
+                <p>Modern, mobile-friendly interfaces built with clean code and creative touch.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 mb-4">
+            <div class="service-block">
+              <div class="service-image-box">
+                <img src="../images/backend.png" alt="Backend">
+              </div>
+              <div class="service-card">
+                <h4>⚙️ Backend Development</h4>
+                <p>Robust and secure APIs with efficient logic and scalable architecture.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 mb-4">
+            <div class="service-block">
+              <div class="service-image-box">
+                <img src="../images/devops.jpg" alt="DevOps">
+              </div>
+              <div class="service-card">
+                <h4>🚀 Deployment & DevOps</h4>
+                <p>CI/CD pipelines, Dockerization, and cloud deployment made simple.</p>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+        <a href="services.html" class="btn btn-outline-warning mt-3">Show More</a>
+      </div>
+    </div>
+    
+  </div>
+</section>
+<!-- What We Offer End -->
+
+<!-- Idea to Execution Section -->
+<section class="container-fluid section-3">
+  <div class="container text-center">
+    <h1 class="golden-text">From Idea to Execution</h1>
+    <p class="section-subtitle text-white">We follow a circular process that ensures consistency, clarity, and continuous improvement.</p>
+
+    <!-- Desktop Process Flow -->
+    <div class="icon-section">
+      <div class="icons">
+        <div class="icon-item">
+          <img src="../images/research.webp" alt="Research" />
+          <span>Research</span>
+        </div>
+        <div class="arrow">➜</div>
+        <div class="icon-item">
+          <img src="../images/design.png" alt="Design" />
+          <span>Design</span>
+        </div>
+        <div class="arrow">➜</div>
+        <div class="icon-item">
+          <img src="../images/develop.png" alt="Develop" />
+          <span>Develop</span>
+        </div>
+        <div class="arrow">➜</div>
+        <div class="icon-item">
+          <img src="../images/deploy.png" alt="Deploy" />
+          <span>Deploy</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Grid Process -->
+    <div class="icon-section mobile-grid">
+      <div class="process-flow">
+        <div class="icon-item">
+          <img src="../images/research.webp" alt="Research" />
+          <span>Research</span>
+        </div>
+        <div class="arrow-char">→</div>
+        <div class="icon-item">
+          <img src="../images/design.png" alt="Design" />
+          <span>Design</span>
+        </div>
+        <div class="arrow-char">↑</div>
+        <div></div>
+        <div class="arrow-char">↓</div>
+        <div class="icon-item">
+          <img src="../images/develop.png" alt="Develop" />
+          <span>Develop</span>
+        </div>
+        <div class="arrow-char">←</div>
+        <div class="icon-item">
+          <img src="../images/deploy.png" alt="Deploy" />
+          <span>Deploy</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section End -->
+
+
+<!-- Footer start -->
+
+
+<div class="container-fluid footer text-light py-4">
+  <div class="container">
+    <div class="row text-center text-md-left">
+
+      <!-- Brand Info -->
+      <div class="col-md-4 mb-4">
+        <h5 class="text-warning">.Dev</h5>
+        <p>Building modern, scalable, and secure solutions — from code to cloud.</p>
+      </div>
+
+      <!-- Quick Links + Contact combined -->
+      <div class="col-md-8 mb-4 footer-combine-mobile">
+        
+        <!-- Quick Links -->
+        <div class="footer-section">
+          <h5 class="text-warning">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="footer-links">Home</a></li>
+            <li><a href="#" class="footer-links">Services</a></li>
+            <li><a href="#" class="footer-links">Portfolio</a></li>
+            <li><a href="#" class="footer-links">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-section">
+          <h5 class="text-warning">Contact</h5>
+          <p>Email: hello@yourdomain.com</p>
+          <p>Location: India (Remote)</p>
+          <div>
+            <a href="#" class="text-light">LinkedIn</a>
+            <a href="#" class="text-light mx-2">GitHub</a>
+            <a href="#" class="text-light mx-2">Instagram</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <hr class="border-secondary">
+    <p class="text-center mb-0">&copy; 2025 .Dev — All Rights Reserved.</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- Footer end -->
+
+
+
+
+<script src="../js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+</html>
