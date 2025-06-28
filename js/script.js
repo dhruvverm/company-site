@@ -23,12 +23,12 @@ function toggleSidebar() {
   // Typing Effect
   const phrases = [
     "scalable systems",
-    "beautiful interfaces",
-    "automated pipelines",
-    "fast, modern websites",
-    "secure cloud setups",
-    "with DevOps mindset",
-    "bold digital experiences"
+    // "beautiful interfaces",
+    // "automated pipelines",
+    // "fast, modern websites",
+    // "secure cloud setups",
+    // "with DevOps mindset",
+    // "bold digital experiences"
   ];
   
   let i = 0;
