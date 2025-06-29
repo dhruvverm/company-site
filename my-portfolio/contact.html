@@ -11,10 +11,15 @@
 <body>
 
 <!-- Header & Banner Start -->
+
+
+
+
+
 <header class="container-fluid about-container-fluid">
 
-   <!-- Go To Top Button -->
-<button onclick="topFunction()" id="goTopBtn" title="Go to top">↑</button>
+ <!-- Go To Top Button -->
+ <button onclick="topFunction()" id="goTopBtn" title="Go to top">↑</button>
 
 
   <div class="container">
@@ -25,10 +30,10 @@
         <nav class="d-none d-md-block">
           <ul class="navbar-links d-flex">
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
           </ul>
         </nav>
 
@@ -37,65 +42,9 @@
     </div>
   </div>
 
-  <!-- About Page Start -->
-<!-- About Page Start -->
 
-<!-- Hero Banner -->
-<div class="container-fluid about-banner text-center text-light py-5">
-    <h1 class="golden-text">About Us</h1>
-    <p class="lead">Turning bold ideas into reliable, scalable, and secure digital products.</p>
-  </div>
-  
-  <!-- Who We Are -->
-  <div class="container about-content py-5">
-    <div class="row align-items-center">
-      <div class="col-md-6 mb-4">
-        <img src="../images/about-us.svg" alt="About" class="img-fluid about-img-card">
-      </div>
-      <div class="col-md-6 mb-4">
-        <h2>Who We Are</h2>
-        <p class="text-white">We’re not just developers or designers — we’re your digital partners. With a strong focus on modern technologies, cloud-native solutions, and user-first design, we craft experiences that leave a lasting impression.</p>
-        <p class="text-white">Since our founding, we’ve helped startups launch, businesses scale, and enterprises automate — with one mission: **deliver value through quality code and smart design**.</p>
-      </div>
-    </div>
-  </div>
-  
-  <!-- Vision & Mission -->
-  <div class="container vision-mission py-5">
-    <div class="row">
-      <div class="col-md-6 mb-4">
-        <h3>Our Mission</h3>
-        <p class="text-white">To build digital products that are reliable, secure, and ready for scale. We believe in sustainable solutions, agile workflows, and clear communication with our clients at every step.</p>
-        <ul>
-          <li class="text-white">✔️ Build robust, maintainable code</li>
-          <li class="text-white">✔️ Design user experiences that engage</li>
-          <li class="text-white">✔️ Automate deployments and cloud infra</li>
-          <li class="text-white">✔️ Deliver on-time, every time</li>
-        </ul>
-      </div>
-      <div class="col-md-6 mb-4">
-        <h3>Our Vision</h3>
-        <p class="text-white">To be the go-to tech partner for businesses worldwide. We aim to empower founders, startups, and organizations by making technology work **for** them — not against them.</p>
-        <p class="text-white">Whether you’re launching your first MVP or automating complex pipelines, we’re ready to roll up our sleeves and get things done.</p>
-      </div>
-    </div>
-  </div>
-  
-  <!-- Our Process -->
 
-  
-  <!-- CTA -->
-  <div class="container-fluid about-cta text-center text-light py-5">
-    <h2>Ready to build something amazing?</h2>
-    <p class="mb-4">From code to cloud — let's turn your ideas into reality.</p>
-    <a href="contact.html" class="btn btn-outline-warning">Let's Talk</a>
-  </div>
-  
-  <!-- About Page End -->
-  
-  
-  <!-- About Page End -->
-  
+
 
 
   <!-- Sidebar for Mobile -->
@@ -105,14 +54,54 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="services.html">Services</a></li>
-      <li><a href="portfolio.html" class="active">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
     </ul>
   </div>
 
 </header>
 <!-- Header & Banner End -->
 
+
+
+<!-- Contact start -->
+
+
+<div class="container-fluid contact-banner-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <main class="contact-container">
+                    <h1>Contact Us</h1>
+                    <form class="contact-form">
+                      <div class="form-group">
+                        <input type="text" id="name" name="name" required />
+                        <label for="name">Name</label>
+                      </div>
+                  
+                      <div class="form-group">
+                        <input type="email" id="email" name="email" required />
+                        <label for="email">Email</label>
+                      </div>
+                  
+                      <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Message</label>
+                      </div>
+                  
+                      <button type="submit">Submit</button>
+                    </form>
+                  </main>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Contact end -->
 
 
 <!-- Footer start -->
